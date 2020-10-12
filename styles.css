@@ -1,21 +1,27 @@
 body {
-    background:lightblue;
+    background:lightgray;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .assignment {
     display:flex;
     padding:10px;
-    margin:10px; 
-    background:#d3d3d3;
+    margin:10px;
+    background:crimson;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    border:2px maroon;
+    margin-right:20px;
 }
 
 h1 {
-    color:lightsalmon;
+    color:maroon;
     text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:firebrick;
 }
