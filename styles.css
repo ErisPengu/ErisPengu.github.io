@@ -5,15 +5,19 @@ body {
 
 .assignment {
     display:flex;
-    padding:10px;
-    margin:10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
     background:crimson;
+    border-radius: 10px;
+    box-shadow: 5px 8px #888888;
 }
 
 .assignment img {
-    width:200px;
-    border:2px maroon;
-    margin-right:20px;
+    width: 200px;
+    border: 2px maroon;
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -24,4 +28,8 @@ h1 {
 a {
     text-decoration:none;
     color:firebrick;
+}
+
+.assignment a:hover {
+    color: purple;
 }
